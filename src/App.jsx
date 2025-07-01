@@ -11,7 +11,7 @@ import { CreditCard, Smartphone, Repeat, DollarSign, ArrowLeft, ArrowRight, User
 
 // Initialize Stripe (replace with your publishable key)
 const stripePromise = loadStripe('pk_test_51HTphfIeAxsjZjWK0VGZMs1IKHjmsz6r8UWkPRwkxknTciEVvGdNOWvgBSwMiptfEGeCJGmgSSCWT3QCbaSp1RFF00mDbfuTsP');
-const API_BASE_URL = "https://aaf7-2a09-bac1-5b20-28-00-3b7-46.ngrok-free.app/api/v1/"
+const API_BASE_URL = "https://calcrew.myosport.co/api/v1/"
 const DonationForm = () => {
   const stripe = useStripe();
   const elements = useElements();
